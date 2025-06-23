@@ -1,12 +1,61 @@
-# React + Vite
+# Proyecto React Native - API Pokémon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación móvil desarrollada con **React Native** que consume la API pública de Pokémon: [https://pokeapi.co/api/v2/pokemon/](https://pokeapi.co/api/v2/pokemon/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidad principal
 
-## Expanding the ESLint configuration
+- 🔍 Búsqueda de Pokémon por ID
+- 📊 Visualización detallada de información del Pokémon
+- 🔢 Consulta por rangos (desde/hasta) para múltiples Pokémon
+- 📱 Interfaz amigable y responsive
+- 
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/Astivero-x3d/Proyecto-curso-React-Native.git
+Entra en el directorio del proyecto:
+```
+
+
+2. Entra en el directorio
+cd Proyecto-curso-React-Native
+
+3. Instala las dependencias:
+npm install
+
+o si usas yarn:
+yarn install
+
+Ejecución
+Para ejecutar el proyecto en un emulador o dispositivo móvil:
+Android:
+npx react-native run-android
+
+o para iOS:
+npx react-native run-ios
+
+Uso
+
+- Ingresa el ID de un Pokémon para consultar sus datos.
+- Puedes especificar un rango de IDs para listar varios Pokémon.
+- Los datos se muestran dinámicamente según el Pokémon seleccionado.
+
+Tecnologías usadas
+
+- React Native
+- Fetch API para consumir PokeAPI
+- JavaScript / JSX
+
+Enlaces útiles
+- API de Pokémon: https://pokeapi.co/
+- Repositorio GitHub: https://github.com/Astivero-x3d/Proyecto-curso-React-Native
+
+Autor
+Astivero-x3d
+
